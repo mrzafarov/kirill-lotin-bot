@@ -8,7 +8,7 @@ Created on Thu Sep 29 19:51:57 2022
 from transliterate import to_latin, to_cyrillic
 import telebot
 
-TOKEN = '5625979981:AAFDzGPAuNKSTAl9n9aattLxxN16woZ7qec'
+TOKEN = 'Your Bot API Token'
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 @bot.message_handler(commands=['start'])
