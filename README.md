@@ -1,2 +1,2 @@
 # krill-lotin-bot
-The bot converts words and texts from the Krill alphabet into the Latin alphabet and vice versa, words and texts from the Latin alphabet into the Krill alphabet
+Bot Krill alifbosidagi so‘z va matnlarni lotin alifbosiga, va aksincha lotin alifbosidan so‘z va matnlarni Krill alifbosiga o'tkazadi.
