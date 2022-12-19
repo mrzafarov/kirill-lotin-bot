@@ -1,14 +1,7 @@
-"""
-Created on Thu Sep 29 19:51:57 2022
-
-@author: MrZafarov
-
-"""
-
 from transliterate import to_latin, to_cyrillic
 import telebot
 
-TOKEN = 'Your Bot API Token'
+TOKEN = 'BOTINGIZNING API TOKENI'
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 @bot.message_handler(commands=['start'])
