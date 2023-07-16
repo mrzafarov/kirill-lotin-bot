@@ -1,7 +1,7 @@
 from transliterate import to_latin, to_cyrillic
 import telebot
 
-TOKEN = 'BOTINGIZNING API TOKENI'
+TOKEN = 'BOT API TOKENI'
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
 @bot.message_handler(commands=['start'])
@@ -10,7 +10,7 @@ def send_welcome(message):
     javob += "\n♻️Bot krill alifbosidagi so'z va matnlarni lotin alifbosiga va aksincha lotin alifbosidagi so'z va matnlarni krill alifbosiga o'tkazib beradi✅\n"
     javob += "\n⚡️Botdan foydalanish uchun istalgan so'z yoki matn kiriting✍️\n"
     javob += "\n📜Botdan to'g'ri foydalanish bo'yicha qo'llanma: /help\n"
-    javob += "\n🧑🏻‍💻Dasturchi: @MoviyDev"
+    javob += "\n🧑🏻‍💻Dasturchi: @MrZafarov"
     bot.reply_to(message, javob)
     
 @bot.message_handler(commands=['help'])
